@@ -27,7 +27,11 @@ public type NameProperty { get; set; }
 Access Modifiers: 
 
 public: all objects can access, inherited, non inherited, outside of the assembly
+
 private: only the object have access
+
 internal: only the objects of the assembly can use
+
 protected: same object and inherited objects
+
 sealed: cant have childs
